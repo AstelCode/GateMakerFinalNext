@@ -36,7 +36,7 @@ export interface ModJson {
   createdAt: Date;
   updatedAt: Date;
   type: ModType;
-  principalImageSrc: string;
+  principalImageSrc?: string;
   author?: UserJson;
   active: boolean;
   images: string[];

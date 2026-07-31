@@ -33,7 +33,7 @@ export interface PackJson {
   versionType: VersionType;
   createdAt: Date;
   updatedAt: Date;
-  principalImageSrc: string;
+  principalImageSrc?: string;
   author?: UserJson;
   active: boolean;
 }
